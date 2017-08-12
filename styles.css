@@ -57,7 +57,7 @@ body {
 }
 
 .content-item {
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
@@ -66,4 +66,10 @@ body {
 
 .content-item > div {
 	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.content-item > img {
+	width: 400px;
+	border: 1px solid grey;
 }
