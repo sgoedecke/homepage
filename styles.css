@@ -40,6 +40,12 @@ a:hover {
 	margin-right: 20px;
 }
 
+.bio {
+	padding-left: 20%;
+	padding-right: 20%;
+	text-align: center;
+}
+
 .article {
 	padding-left: 20%;
 	padding-right: 20%;
@@ -52,7 +58,6 @@ a:hover {
 .article > h2 {
 	font-size: medium;
 }
-
 
 .contents {
 	display: flex;
