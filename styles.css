@@ -14,24 +14,25 @@ a:hover {
 
 .header {
 	border-bottom: 1px solid lightgray;
-	padding-bottom: 5px;
+	padding-bottom: 25px;
 	display: flex;
 }
 
 .header-contents > img {
-	height: 35px;
-	width: 35px;
-	border-radius: 25px;
-}
-
-.header-contents > h1 {
-	font-size: medium;
+	height: 80px;
+	width: 80px;
+	border-radius: 80px;
 }
 
 .header-contents {
 	display: flex;
 	margin: auto;
 	flex-direction: row;
+    font-size: x-large;
+}
+
+.header-contents > h1 {
+  font-size: x-large;
 }
 
 .header-contents > * {
@@ -41,14 +42,14 @@ a:hover {
 }
 
 .bio {
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left: 10%;
+	padding-right: 10%;
 	text-align: center;
 }
 
 .article {
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .article > h1 {
@@ -66,7 +67,7 @@ a:hover {
 	margin-right: auto;
 	margin-top: 20px;
 	padding-bottom: 40px;
-	width: 70%;
+	width: 90%;
 }
 
 .content-item {
@@ -74,12 +75,12 @@ a:hover {
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
-	width: 50%;
+	width: 80%;
 }
 
 .content-item > div {
 	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .content-item > img {
